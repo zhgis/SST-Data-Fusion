@@ -19,6 +19,6 @@ Because of the large amount of raw data, we have provided 1 day of original data
 We have uploaded the validation result of 15 days fusion results, you can run the program draw_valid.py in the valid folder to check the validation results.
 When running the fusion program, please note that it corresponds to the location of our folder, using relative file addresses, and note that the number of days to be fused in the fusion.py file should be changed h parameter to match the corresponding data.
 
-Files are compressed due to storage space limitations, please unzip these files before use.
+# Files are compressed due to storage space limitations, please unzip all rar files before use.
 
 More data can be downloaded on http://satellite.nsmc.org.cn
