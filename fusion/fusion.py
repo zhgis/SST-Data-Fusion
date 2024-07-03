@@ -126,7 +126,7 @@ if __name__ == '__main__':
                 for j in range(n_sst):
                     fy_row_n = (fy_row - int((Lat[i][j] - s_lat) / fy_dis) - 1)-1
                     fy_line_n = (int((Lon[i][j] - s_lon) / fy_dis))-1
-                    # 超出范围的数据进行排除，注意yh和fy的异常值
+                    # exclude outliers
                     if (SST_data[i][j] != -999 and fy_row_n < fy_row and fy_line_n < fy_line and fy_row_n > 0 and fy_line_n > 0 and
                             FY_SST[int(SST_data_time[i][j])][fy_row_n][fy_line_n] != -999 and
                             FY_SST[int(pre_hour)][fy_row_n][fy_line_n] != -999):
