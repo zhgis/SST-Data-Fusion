@@ -1,8 +1,8 @@
 # SST-Data-Fusion
-Spatiotemporal Sea Surface Temperature Data Fusion Model for MERSI and AGRI Sensors
+# Spatiotemporal Sea Surface Temperature Data Fusion Model for MERSI and AGRI Sensors
 
 
-dir list
+# dir list
 
 --data (Store files including MERSI and AGRI SST product data on Jan 10, 2023, AGRI latitude and longitude lookup table data, and buoy argo data from January 2023)
 
@@ -16,6 +16,7 @@ dir list
 
 --valid (1.15days_validation.py valid 15 days result with argo buoy data ; 2.draw_valid.py  draw valid_reslut ; 3.valid_fy3e_fusion_415.txt give a result of January 2023, run the draw_valid.py to see the valid PNG)
 
+# attention
 Because of the large amount of raw data, we have provided 1 day of original data （Jan 10, 2023）and fusion process data and result data, and also the validation program. 
 We have uploaded the validation result of 15 days fusion results, you can run the program draw_valid.py in the valid folder to check the validation results.
 When running the fusion program, please note that it corresponds to the location of our folder, using relative file addresses, and note that the number of days to be fused in the fusion.py file should be changed h parameter to match the corresponding data.
