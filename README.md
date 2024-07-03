@@ -1,7 +1,5 @@
 # Spatiotemporal Sea Surface Temperature Data Fusion Model for MERSI and AGRI Sensors
 
-# Project
-
 # dir list
 
 --data (Store files including MERSI and AGRI SST product data on Jan 10, 2023, AGRI latitude and longitude lookup table data, and buoy argo data from January 2023)
