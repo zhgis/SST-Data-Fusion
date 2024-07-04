@@ -20,7 +20,7 @@ for data fusion of Jan 10 , 2023 for 24 hours
 
 1. run data-deal/AGRI_reset.py get midddle_result/fy4a_reset/fy4a0110.npy
    
-2. run data-deal/MERSI_reproject.py get midddle_result/fy3e_resample/pre_pic_10.npy and pre_pic_time_10.npy
+2. run data-deal/MERSI_reproject.py get midddle_result/fy3e_resample/pre_pic_10.txt and pre_pic_time_10.txt
    
 3. run fusion/ST_matrix.py get midddle_result/st_weight/ST_weight_10.npy
    
@@ -34,5 +34,8 @@ We have uploaded the validation result of 15 days fusion results, you can run th
 When running the fusion program, please note that it corresponds to the location of our folder, using relative file addresses, and note that the number of days to be fused in the fusion.py file should be changed h parameter to match the corresponding data.
 
 # Files are compressed due to storage space limitations, please unzip all rar files before use.
+
+Limited by the storage space the original middle_result/fy4a_reset/fy4a0110.npy value was multiplied by 1000 and converted to integer, when using the file need to merge the decompression and divide the value by 1000 to get the original floating-point array, after decompression the file is named fy4a0110.npy
+the original midddle_result/fy3e_resample/pre_pic_10.txt is also compressed to part file, merge the decompression files for use and named as pre_pic_10.txt.
 
 We give sample data, full data can be downloaded from the website http://satellite.nsmc.org.cn.
